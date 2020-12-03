@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #444;
+  font-family: roboto, sans-serif;
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  text-transform: capitalize;
+}
+
+p {
+  margin: 10px 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: #444;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+button {
+  border: none;
+  text-transform: capitalize;
+  cursor: pointer;
+  outline: none;
+}
+
+input {
+  border: 0;
+  outline: none;
+}
+
+i {
+  cursor: pointer;
+}
+
+.my-1 {
+  margin: 1rem 0;
+}
+
+.my-2 {
+  margin: 1.5rem 0;
+}
+
+.my-3 {
+  margin: 2rem 0;
+}
+
+.my-4 {
+  margin: 3rem 0;
+}
+
+.my-5 {
+  margin: 4rem 0;
+}
+
+.m-1 {
+  margin: 1rem;
+}
+
+.m-2 {
+  margin: 1.5rem;
+}
+
+.m-3 {
+  margin: 2rem;
+}
+
+.m-4 {
+  margin: 3rem;
+}
+
+.m-5 {
+  margin: 4rem;
+}
+
+.py-1 {
+  padding: 1rem 0;
+}
+
+.py-2 {
+  padding: 1.5rem 0;
+}
+
+.py-3 {
+  padding: 2rem 0;
+}
+
+.py-4 {
+  padding: 3rem 0;
+}
+
+.py-5 {
+  padding: 4rem 0;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.p-2 {
+  padding: 1.5rem;
+}
+
+.p-3 {
+  padding: 2rem;
+}
+
+.p-4 {
+  padding: 3rem;
+}
+
+.p-5 {
+  padding: 4rem;
+}
+
+.container {
+  width: 85%;
+  height: 100%;
+  margin: auto;
+}
+
+.flex {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid {
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.card {
+  padding: 20px;
+  color: #444;
+  background-color: #fff;
+  border: 2px solid #d4d4d4;
+  border-radius: 3px;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.3);
+}
+
+.btn {
+  padding: 8px 20px;
+  background-color: #fff;
+  border: 2px solid #d4d4d4;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Alert */
+.alert {
+  background-color: #eee;
+  padding: 10px 20px;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+.alert i {
+  margin-right: 10px;
+}
+
+.alert-success {
+  background-color: #5cb85c;
+  color: #fff;
+}
+
+.alert-error {
+  background-color: #5cb85c;
+  color: #fff;
+}

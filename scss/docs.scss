@@ -1,0 +1,99 @@
+// Start Variables
+$blue-color: #047aed;
+$black-color: #444;
+$orange-color: #FF9800;
+// End Variables
+
+// Start Features Head
+.docs-head {
+  padding: 50px 0;
+  background-color: $blue-color;
+}
+
+.docs-head-text {
+  h1 {
+    color: #fff;
+    font-size: 40px;
+  }
+
+  p {
+    color: #fff;
+    font-size: 18px;
+  }
+}
+
+.docs-head-image {
+  width: 200px;
+  justify-self: flex-end;
+
+  img {
+    width: 100%;
+  }
+}
+
+// End Docs Head
+
+// Start Docs Main
+.docs-main {
+  padding: 60px 0;
+}
+
+.docs-main-content {
+  grid-template-columns: 1fr 2fr;
+  align-items: flex-start;
+
+  .card:first-of-type {
+    background-color: #eee;
+
+    nav {
+      ul {
+        li {
+          font-size: 17px;
+          padding-bottom: 5px;
+          margin-bottom: 5px;
+          border-bottom: 1px #ccc solid;
+        }
+      }
+    }
+  }
+
+  .card {
+    .btn {
+      color: #fff;
+      background-color: $blue-color;
+    }
+  }
+}
+
+code,
+pre {
+  background: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+// End Docs Main
+
+@media(max-width:768px) {
+
+  .docs-head-content {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+
+    .docs-head-text {
+      h1 {
+        text-align: center;
+      }
+
+      p {
+        text-align: center;
+      }
+    }
+
+    .docs-head-image {
+      justify-self: center;
+    }
+  }
+
+
+}
